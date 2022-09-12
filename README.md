@@ -17,6 +17,9 @@ $ npm run start
 $ npm run generate
 ```
 
+### API used in this project
+https://github.com/Onins/oddjobapi
+
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 
 ## Special Directories

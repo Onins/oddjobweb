@@ -1,5 +1,12 @@
 # oddjobweb
 
+## API used in this project
+https://github.com/Onins/oddjobapi
+
+Test account that has jobs assigned to
+kai@test.com
+pass
+
 ## Build Setup
 
 ```bash
@@ -16,9 +23,6 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
-
-### API used in this project
-https://github.com/Onins/oddjobapi
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
 

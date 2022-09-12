@@ -1,0 +1,86 @@
+.input {
+  width: 100%;
+  position: relative;
+}
+
+.input__wrapper {
+  padding: 60px 30px 96px;
+}
+
+.input__edit {
+  position: relative;
+  margin-bottom: 68px;
+}
+
+.input__edit-link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  font-size: 20px;
+  font-family: $base-font-bold;
+  text-decoration: underline;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+
+  &--save {
+    right: 130px;
+  }
+}
+
+.input__date {
+  font-size: 20px;
+  font-family: $base-font-family;
+  letter-spacing: 0.2em;
+  margin-bottom: 17px;
+}
+
+.input__title {
+  font-family: $base-jp-font;
+  margin-bottom: 36px;
+  width: 100%;
+  border: solid 1px #000000;
+  height: 149px;
+  padding: 17px 18px;
+  font-size: 36px;
+  letter-spacing: 0.12em;
+}
+
+.input__image {
+  background-size: cover;
+  width: 100%;
+  height: 540px;
+  margin-bottom: 36px;
+  position: relative;
+  background-color: #D6D6D6;
+}
+
+.input__content {
+  font-size: 18px; 
+  font-family: $base-jp-font-reg;
+  letter-spacing: 0.08em; 
+  margin-bottom: 56px;
+  line-height: 2.25;
+  width: 100%;
+  border: solid 1px #000000;
+  height: 394px;
+  padding: 12px 24px;
+
+}
+
+.input__button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-family: $base-font-bold;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  background-color: $color-bg-secondary;
+  padding: 20px 24px 20px 31px;
+  color: $color-text-secondary;
+  width: 260px;
+  cursor: pointer;
+}
+
+.input__button--hide {
+ display: none;
+}

@@ -1,0 +1,31 @@
+.notif {
+  width: 100%;
+  position: relative;
+}
+
+.notif__box {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 250px;
+  width: 149px;
+  z-index: 9;
+}
+
+.notif__list {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.notif__list-item {
+  font-family: $base-jp-font-reg;
+  background-color: $color-bg-primary;
+  color: $color-text-secondary;
+  font-size: 12px;
+  box-shadow: #00000059 1px 1px 4px;
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 5px 0 0 5px;
+  margin-bottom: 5px;
+}
+

@@ -1,0 +1,21 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: $base-jp-font;
+  font-size: $base-font-size;
+  color: $color-text-primary;
+
+  &.scroll-lock {
+    position: fixed;
+    width: 100%;
+  }
+}
+
+.header, .footer, .base-content, .notif{
+  &.disabled {
+    filter: blur(2px);
+    pointer-events: none;
+  }
+}

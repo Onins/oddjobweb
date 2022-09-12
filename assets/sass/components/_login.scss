@@ -1,0 +1,122 @@
+.login {
+  line-height: 0;
+  margin-top: 18px;
+  z-index: 10;
+  position: relative;
+}
+
+.login-link {
+  font-size: 18px;
+  font-family: $base-font-bold;
+  color: $color-text-primary;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  outline: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.login_user {
+  display: block;  
+  width: 100px;  
+  font-size: 16px;
+  line-height: 1.1;
+  overflow: hidden;
+  font-size: 16px;
+  text-overflow: ellipsis;
+
+  span {
+    color: #44a444;
+  }
+}
+
+.login-modal {
+  height: 666px;
+  width: 100%;
+  position: absolute;
+  opacity:0;
+  pointer-events: none;
+  z-index: 9;
+  background: white;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.6s cubic-bezier(0, 0.55, 0.45, 1), opacity .3s cubic-bezier(0, 0.55, 0.45, 1);
+
+  &.open {
+    opacity: 1;
+    transform: translateY(114px);
+    pointer-events: initial;
+  }
+}
+
+.login-modal__wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.login-modal__header {
+  font-family: $base-font-bold;
+  font-size: 30px;
+  letter-spacing: 0.1em;
+  margin-bottom: 44px;
+}
+
+.login-modal__error {
+  position: absolute;
+  top: 50px;
+  text-align: center;
+  width: 100%;
+  color:#dd0000;
+  font-family: $base-font-family;
+}
+
+.login-modal__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__label {
+  font-family: $base-font-family;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+}
+
+.login__input {
+  border: black 1px solid;
+  padding: 14px 10px;
+  margin-top: 2px;
+  width: 460px;
+  margin-bottom: 18px;
+  font-family: $base-font-family;
+}
+
+.login__button {
+  font-family: $base-font-bold;
+  font-size: 20px;
+  letter-spacing: 0.1em;
+  background-color: $color-bg-secondary;
+  padding: 20px 0;
+  color: $color-text-secondary;
+  margin-top: 2px;
+  margin-bottom: 35px;
+  cursor: pointer;
+}
+
+.login__text {
+  font-family: $base-font-family;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  text-align: center;
+}
+
+.login__link {
+  font-family: $base-font-bold;
+  cursor: pointer;
+}

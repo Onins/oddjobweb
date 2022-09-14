@@ -5,9 +5,8 @@
 </template>
 
 <script>
-import JobList from '../components/JobList.vue';
+import JobList from '../../components/JobList.vue';
 export default {
-    name: "IndexPage",
     components: {JobList }
 }
 </script>

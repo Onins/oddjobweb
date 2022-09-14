@@ -46,6 +46,6 @@ export default {
   build: {
   },
   router: {
-    middleware: ['fetchJobs', 'authenticate', 'myJobs', 'fetchUserInfo']
+    middleware: ['fetchJobs', 'authenticate', 'fetchUserInfo']
   }
 }

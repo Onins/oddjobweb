@@ -1,7 +1,6 @@
 import axios from 'axios'
   
-export default function ({store}) {
-  if (localStorage.getItem('userid') != "" && localStorage.getItem('userid') != null){
+export default function ({store}) {  
     let config = {
       method: 'get',
       url: 'http://localhost:3080/user/'+localStorage.getItem('userid')
@@ -15,5 +14,3 @@ export default function ({store}) {
       console.log(error);          
     });
   }   
-}
-

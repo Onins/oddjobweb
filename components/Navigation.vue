@@ -6,7 +6,7 @@
       </nuxt-link>
     </li>
     <li class="header__nav-item">
-      <nuxt-link class="header__nav-link" to="/joblist">
+      <nuxt-link class="header__nav-link" to="/jobs">
         All Jobs
       </nuxt-link>
     </li>

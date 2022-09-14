@@ -1,7 +1,7 @@
 import axios from 'axios'
   
 export default function ({store}) {
-  if (localStorage.getItem('userid') != "" && localStorage.getItem('userid') != null){
+  // if (localStorage.getItem('userid') != "" && localStorage.getItem('userid') != null){
     let config = {
       method: 'get',
       url: 'http://localhost:3080/user/'+localStorage.getItem('userid')+'/jobsassigned',
@@ -16,9 +16,9 @@ export default function ({store}) {
     }).catch((error)=> {
       console.log(error);          
     });
-  }
-  else {
-    store.commit("jobs/setMyJobList", []);    
-  }
+  // }
+  // else {
+  //   store.commit("jobs/setMyJobList", []);    
+  // }
 }
 

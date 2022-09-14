@@ -8,6 +8,7 @@
 import MyJobs from '../components/MyJobs.vue';
 export default {
     name: "IndexPage",
-    components: { MyJobs }
+    components: { MyJobs },
+    middleware: 'myJobs'
 }
 </script>

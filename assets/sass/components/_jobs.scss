@@ -1,20 +1,58 @@
+.base-content {
+  min-height: 70vh;
+  padding: 0 40px;
+}
+
+.job__content {
+  display: flex;
+  list-style: none;
+}
+
 .job__card {
-  border: 1px solid black; 
-  margin: 10px;
-  padding: 20px
+  width: 400px;  
 }
 
 .job__card-item {
-
+  border: 1px solid #0000002e;
+  margin: 10px;
+  height: 300px;
+  padding: 20px;
+  border-radius: 10px;
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  
+  div {
+    width: 40%;
+  }
 }
 
 .myjob__placeholder {
-  height: 70vh;
+  min-height: 70vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .myjob__content {
-  height: 70vh;
+  min-height: 70vh;
+  display: flex;
+  list-style: none;
+}
+
+
+.myjob__job-detail {
+  padding: 30px;
+  display: block;
+}
+
+.myjob__label {
+  font-size: 14px;
+  font-style: italic;
+}
+
+.myjob__text {
+  margin-bottom: 30px;
+  margin-left: 20px;
 }

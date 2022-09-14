@@ -1,5 +1,12 @@
 # oddjobweb
 
+## API used in this project
+https://github.com/Onins/oddjobapi
+
+Test account that has jobs assigned to
+kai@test.com
+pass
+
 ## Build Setup
 
 ```bash
